@@ -1,30 +1,33 @@
 {
-  "name": "AS Exclusive NFT",
+  "name": "AS NFT",
   "symbol": "AS",
-  "description": "A limited edition AS NFT, part of the AS Collection. Own a unique digital asset on Solana!",
-  "seller_fee_basis_points": 500,
-  "image": "https://arweave.net/your_image.png",
-  "external_url": "https://your-website.com",
+  "description": "Exclusive AS NFT minted on the Solana blockchain.",
+  "image": "https://raw.githubusercontent.com/init-anmol/images/refs/heads/main/AS_NFT.png",
   "attributes": [
     {
-      "trait_type": "Rarity",
-      "value": "Exclusive"
+      "trait_type": "Collection",
+      "value": "AS Series"
     },
     {
-      "trait_type": "Collection",
-      "value": "AS Collection"
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Blockchain",
+      "value": "Solana"
     }
   ],
+  "seller_fee_basis_points": 500,
   "properties": {
     "creators": [
       {
-        "address": "FX9Qjj9ZCtcV1czgVieVHh6jvFw29Gbw3XaPmDAoRnic",
+        "address": "4GZXX5SNqTBGFjTh5121jc5XU4PTYyWsEj9twNxJKcry",
         "share": 100
       }
     ],
     "files": [
       {
-        "uri": "https://arweave.net/your_image.png",
+        "uri": "https://raw.githubusercontent.com/init-anmol/images/refs/heads/main/AS_NFT.png",
         "type": "image/png"
       }
     ]
